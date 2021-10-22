@@ -1,10 +1,10 @@
 provider "aws" {
-access_key = "AKIA2DSYYLG5HDUIYZUL"
-secret_key = "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"
+access_key = "AKIA2DSYYLG5DBZBKRGL"
+secret_key = "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"
 region = "us-east-1"
 }
 resource "aws_instance" "web" {
-  ami           = "ami-0a3c7d78f0b8f0fce"
+  ami           = "ami-09e67e426f25ce0d7"
   instance_type = "t2.micro"
   tags = {
     Name = "HelloWorld"
